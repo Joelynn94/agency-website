@@ -1,6 +1,6 @@
 export default function Navbar() {
 	return (
-		<nav className="absolute z-50 w-full top-0 left-0 flex flex-wrap items-center justify-between px-4 py-4">
+		<nav className="absolute z-50 w-full top-0 left-0 p-5 flex flex-wrap items-center justify-between">
 			<div className="container mx-auto flex flex-wrap items-center justify-between">
 				<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 					<a href="/" className="text-white font-bold text-3xl">
