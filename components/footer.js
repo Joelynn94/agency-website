@@ -107,13 +107,14 @@ export default function Footer() {
 							</Link>
 						</li>
 						<li className="mt-2">
-							<a
-								href="/ppc_for_dentists.html"
-								title=""
-								className="opacity-75 hover:opacity-100"
-							>
-								Adwords
-							</a>
+							<Link href="/adwords">
+								<a
+									title=""
+									className="opacity-75 hover:opacity-100"
+								>
+									Adwords
+								</a>
+							</Link>
 						</li>
 						<li className="mt-2">
 							<a
