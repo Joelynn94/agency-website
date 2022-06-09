@@ -87,13 +87,14 @@ export default function Footer({ config }) {
 							</Link>
 						</li>
 						<li className="mt-2">
-							<a
-								href="/social_media.html"
-								title=""
-								className="opacity-75 hover:opacity-100"
-							>
-								Social Media
-							</a>
+							<Link href="/social-media">
+								<a
+									title=""
+									className="opacity-75 hover:opacity-100"
+								>
+									Social Media
+								</a>
+							</Link>
 						</li>
 						<li className="mt-2">
 							<a
