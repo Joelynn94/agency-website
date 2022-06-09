@@ -90,7 +90,7 @@ export default function Navbar() {
 								</Link>
 							</li>
 							<li className="md:ml-6 mt-3 md:mt-0">
-								<Link href="/contact_us.html">
+								<Link href="/contact">
 									<a className="inline-block font-semibold px-4 py-2 text-gray-800 bg-blue-600 md:bg-transparent md:text-gray-800 border border-gray-800 rounded hover:bg-gray-800 hover:text-green-400">
 										Contact Us
 									</a>
