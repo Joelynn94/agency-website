@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer({ config }) {
 	return (
 		<footer className="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-12 xl:px-32 2xl:px-56 pt-12 pb-20 md:pt-24">
@@ -65,13 +67,14 @@ export default function Footer({ config }) {
 					</h5>
 					<ul className="mt-4">
 						<li className="mt-2">
-							<a
-								href="/our_work.html"
-								title=""
-								className="opacity-75 hover:opacity-100"
-							>
-								Our Work
-							</a>
+							<Link href="/our-work">
+								<a
+									title=""
+									className="opacity-75 hover:opacity-100"
+								>
+									Our Work
+								</a>
+							</Link>
 						</li>
 						<li className="mt-2">
 							<a
