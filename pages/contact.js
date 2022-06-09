@@ -3,18 +3,18 @@ import Layout from "../components/layout";
 export default function Contact() {
 	return (
 		<Layout>
-			<section class="pt-16">
-				<div class="w-full lg:flex mt-6">
-					<div class="contact_info relative flex-grow justify-center px-8 lg:px-20 flex items-center py-20 lg:py-48">
+			<section className="pt-16">
+				<div className="w-full lg:flex mt-6">
+					<div className="contact_info relative flex-grow justify-center px-8 lg:px-20 flex items-center py-20 lg:py-48">
 						<div>
-							<h2 class="font-medium mb-5 text-blue-50">
+							<h2 className="font-medium mb-5 text-blue-50">
 								Contact Us
 							</h2>
 							<div>
-								<div class="flex items-center mb-10">
-									<div class="w-10 h-10 flex items-center justify-center p-2 rounded-full mr-6 bg-white">
+								<div className="flex items-center mb-10">
+									<div className="w-10 h-10 flex items-center justify-center p-2 rounded-full mr-6 bg-white">
 										<svg
-											class="text-green-500 fill-current"
+											className="text-green-500 fill-current"
 											width="18"
 											height="18"
 											viewBox="0 0 18 18"
@@ -35,10 +35,10 @@ export default function Contact() {
 										</svg>
 									</div>
 									<div>
-										<span class="block text-xs font-medium text-green-100 uppercase tracking-widest">
+										<span className="block text-xs font-medium text-green-100 uppercase tracking-widest">
 											Telephone Number
 										</span>
-										<span class="block font-medium text-blue-50">
+										<span className="block font-medium text-blue-50">
 											<a href="tel:+27813434552">
 												(+27) 81 343 4552
 											</a>
@@ -46,10 +46,10 @@ export default function Contact() {
 									</div>
 								</div>
 							</div>
-							<div class="flex items-center mb-10">
-								<div class="w-10 h-10 flex items-center justify-center p-2 rounded-full mr-6 bg-white">
+							<div className="flex items-center mb-10">
+								<div className="w-10 h-10 flex items-center justify-center p-2 rounded-full mr-6 bg-white">
 									<svg
-										class="text-green-500 fill-current"
+										className="text-green-500 fill-current"
 										width="16"
 										height="12"
 										viewBox="0 0 16 12"
@@ -60,27 +60,27 @@ export default function Contact() {
 									</svg>
 								</div>
 								<div>
-									<span class="block text-xs font-medium text-green-100 uppercase tracking-widest">
+									<span className="block text-xs font-medium text-green-100 uppercase tracking-widest">
 										Email Address
 									</span>
-									<span class="block font-medium text-blue-50">
+									<span className="block font-medium text-blue-50">
 										<a href="mailto:accounting@business.com">
 											agency@business.com
 										</a>
 									</span>
 								</div>
 							</div>
-							<div class="flex items-center mb-10">
-								<div class="w-10 h-10 flex items-center justify-center p-2 rounded-full mr-6 bg-white">
+							<div className="flex items-center mb-10">
+								<div className="w-10 h-10 flex items-center justify-center p-2 rounded-full mr-6 bg-white">
 									<svg
-										class="text-green-500 fill-current"
+										className="text-green-500 fill-current"
 										width="18"
 										height="18"
 										viewBox="0 0 18 18"
 										fill="none"
 										xmlns="http://www.w3.org/2000/svg"
 									>
-										<g clip-path="url(#clip0)">
+										<g clipPath="url(#clip0)">
 											<path d="M17.4284 4.87413L15.4017 3.31253C15.264 3.22412 15.1142 3.15601 14.9571 3.11029C14.8006 3.05964 14.6377 3.03148 14.4733 3.02666H8.63987L9.32339 7.29333H14.4733C14.6132 7.29333 14.7881 7.26176 14.9562 7.2097C15.1244 7.15765 15.2865 7.08597 15.4008 7.00832L17.4275 5.44501C17.5427 5.36736 17.5999 5.2641 17.5999 5.16C17.5999 5.05589 17.5427 4.95264 17.4284 4.87413V4.87413ZM7.78654 1.32H6.9332C6.82004 1.32 6.71152 1.36495 6.6315 1.44496C6.55149 1.52498 6.50654 1.6335 6.50654 1.74666V4.73333H3.65982C3.51816 4.73333 3.34408 4.7649 3.17598 4.81781C3.00702 4.86901 2.84574 4.93984 2.73139 5.0192L0.704723 6.5808C0.589523 6.65845 0.533203 6.76256 0.533203 6.86666C0.533203 6.96992 0.589523 7.07317 0.704723 7.15253L2.73139 8.71584C2.84574 8.79349 3.00702 8.86517 3.17598 8.91637C3.34408 8.96842 3.51816 9 3.65982 9H6.50654V16.2533C6.50654 16.3665 6.55149 16.475 6.6315 16.555C6.71152 16.635 6.82004 16.68 6.9332 16.68H7.78654C7.8997 16.68 8.00822 16.635 8.08824 16.555C8.16825 16.475 8.2132 16.3665 8.2132 16.2533V1.74666C8.2132 1.6335 8.16825 1.52498 8.08824 1.44496C8.00822 1.36495 7.8997 1.32 7.78654 1.32V1.32Z" />
 										</g>
 										<defs>
@@ -96,96 +96,96 @@ export default function Contact() {
 									</svg>
 								</div>
 								<div>
-									<span class="block text-xs font-medium text-green-100 uppercase tracking-widest">
+									<span className="block text-xs font-medium text-green-100 uppercase tracking-widest">
 										Physical Address
 									</span>
-									<span class="block font-medium text-blue-50">
+									<span className="block font-medium text-blue-50">
 										3 Abbey Rd, London, United Kingdom
 									</span>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="flex-grow justify-center bg-white px-8 lg:px-20 py-20 lg:py-48">
-						<div class="flex justify-center">
+					<div className="flex-grow justify-center bg-white px-8 lg:px-20 py-20 lg:py-48">
+						<div className="flex justify-center">
 							<div>
-								<h2 class="text-xl lg:text-xl font-medium mb-1 text-gray-700">
+								<h2 className="text-xl lg:text-xl font-medium mb-1 text-gray-700">
 									Have a Question?
 								</h2>
-								<span class="text-sm mb-4 text-gray-400">
+								<span className="text-sm mb-4 text-gray-400">
 									Pop us a message and we'll get in touch.
 								</span>
 								<form
 									name="contact"
 									data-netlify="true"
-									autocomplete="off"
+									autoComplete="off"
 									netlify-honeypot="bot-field"
 								>
-									<p class="hidden">
+									<p className="hidden">
 										<label>
 											Don't fill this out if you're human:{" "}
 											<input name="bot-field" />
 										</label>
 									</p>
-									<div class="relative z-0 mt-6 bg-gray-50 rounded">
+									<div className="relative z-0 mt-6 bg-gray-50 rounded">
 										<input
 											id="name"
 											type="text"
 											pattern="\S+.*"
-											class="block p-2.5 w-full text-sm text-gray-800 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+											className="block p-2.5 w-full text-sm text-gray-800 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
 											placeholder=" "
 										/>
 										<label
 											htmlFor="name"
-											class="absolute text-sm text-gray-500 duration-300 transform -translate-y-7 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-7 pl-2.5"
+											className="absolute text-sm text-gray-500 duration-300 transform -translate-y-7 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-7 pl-2.5"
 										>
 											Name
 										</label>
 									</div>
-									<div class="relative z-0 mt-6 bg-gray-50 rounded">
+									<div className="relative z-0 mt-6 bg-gray-50 rounded">
 										<input
 											id="email"
 											type="email"
-											class="block p-2.5 w-full text-sm text-gray-800 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+											className="block p-2.5 w-full text-sm text-gray-800 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
 											placeholder=" "
 										/>
 										<label
 											htmlFor="email"
-											class="absolute text-sm text-gray-500 duration-300 transform -translate-y-7 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-7 pl-2.5"
+											className="absolute text-sm text-gray-500 duration-300 transform -translate-y-7 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-7 pl-2.5"
 										>
 											Email
 										</label>
 									</div>
-									<div class="mt-6">
+									<div className="mt-6">
 										<label
-											for="message"
-											class="block mb-2 text-sm font-medium text-gray-800"
+											htmlFor="message"
+											className="block mb-2 text-sm font-medium text-gray-800"
 										>
 											Your message
 										</label>
 										<textarea
 											id="message"
 											rows="4"
-											class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+											className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
 											placeholder=" "
 										></textarea>
 									</div>
 									<button
 										type="submit"
 										id="submit-button"
-										class="w-full font-semibold rounded-md uppercase text-center px-5 py-3 shadow-md my-4 lg:mb-0 bg-gradient-to-r from-blue-500 to-green-400 text-green-50 focus:ring-4 focus:ring-blue-300 hover:from-blue-400 hover:to-green-300"
+										className="w-full font-semibold rounded-md uppercase text-center px-5 py-3 shadow-md my-4 lg:mb-0 bg-gradient-to-r from-blue-500 to-green-400 text-green-50 focus:ring-4 focus:ring-blue-300 hover:from-blue-400 hover:to-green-300"
 									>
 										Send Message
 									</button>
 									<span
 										id="success"
-										class="hidden absolute mt-2 px-4 py-2 font-medium border rounded-sm border-green-500 bg-green-100 text-green-600"
+										className="hidden absolute mt-2 px-4 py-2 font-medium border rounded-sm border-green-500 bg-green-100 text-green-600"
 									>
 										Thanks! We'll be in touch soon.
 									</span>
 									<span
 										id="error"
-										class="hidden absolute mt-2 px-4 py-2 font-medium border rounded-sm border-red-500 bg-red-100 text-red-600"
+										className="hidden absolute mt-2 px-4 py-2 font-medium border rounded-sm border-red-500 bg-red-100 text-red-600"
 									>
 										Whoops... Something went wrong.
 									</span>

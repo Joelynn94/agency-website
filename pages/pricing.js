@@ -6,10 +6,10 @@ export default function Pricing() {
 			<section className="min-h-screen pt-40 pb-24 lg:py-48 flex justify-center items-center py-32 px-12 bg-gray-100">
 				<div className="text-center font-semibold">
 					<h1 className="text-5xl">
-						<span class="text-green-500 tracking-wide">
+						<span className="text-green-500 tracking-wide">
 							Flexible{" "}
 						</span>
-						<span class="text-gray-800">Plans</span>
+						<span className="text-gray-800">Plans</span>
 					</h1>
 					<p className="pt-6 text-xl text-gray-500 font-normal w-full px-4 md:px-8 md:w-full">
 						Choose a plan that works best for you and your business.
