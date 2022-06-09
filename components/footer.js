@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Footer({ config }) {
+export default function Footer() {
 	return (
 		<footer className="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-12 xl:px-32 2xl:px-56 pt-12 pb-20 md:pt-24">
 			<div className="flex flex-col lg:flex-row">
@@ -97,13 +97,14 @@ export default function Footer({ config }) {
 							</Link>
 						</li>
 						<li className="mt-2">
-							<a
-								href="/online_advertising.html"
-								title=""
-								className="opacity-75 hover:opacity-100"
-							>
-								Advertising
-							</a>
+							<Link href="/online-advertising">
+								<a
+									title=""
+									className="opacity-75 hover:opacity-100"
+								>
+									Advertising
+								</a>
+							</Link>
 						</li>
 						<li className="mt-2">
 							<a
