@@ -77,13 +77,14 @@ export default function Footer({ config }) {
 							</Link>
 						</li>
 						<li className="mt-2">
-							<a
-								href="/seo_for_dentists.html"
-								title=""
-								className="opacity-75 hover:opacity-100"
-							>
-								SEO
-							</a>
+							<Link href="/seo-for-dentists">
+								<a
+									title=""
+									className="opacity-75 hover:opacity-100"
+								>
+									SEO
+								</a>
+							</Link>
 						</li>
 						<li className="mt-2">
 							<a
