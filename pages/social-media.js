@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Layout from "../components/layout";
 
 export default function SocialMedia() {
@@ -104,12 +105,11 @@ export default function SocialMedia() {
 						We focus on more patients so you can focus on your
 						practice.
 					</h2>
-					<a
-						href="/contact.html"
-						className="px-8 py-4 mt-8 lg:mt-0 uppercase rounded inline-block font-bold lg:ml-8 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-blue-50"
-					>
-						Contact Us
-					</a>
+					<Link href="/contact">
+						<a className="px-8 py-4 mt-8 lg:mt-0 uppercase rounded inline-block font-bold lg:ml-8 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-blue-50">
+							Contact Us
+						</a>
+					</Link>
 				</div>
 			</section>
 		</Layout>

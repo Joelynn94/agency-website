@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
 	return (
 		<div className="rounded-br-3xl md:rounded-br-40xl overflow-hidden">
@@ -22,12 +24,11 @@ export default function Hero() {
 							We specialize in marketing for a focused cause to
 							bring you results - more business.
 						</p>
-						<a
-							href="/marketing.html"
-							className="uppercase px-8 py-4 shadow-sm rounded inline-block mt-8 font-semibold hover:bg-blue-500 bg-blue-600 text-white"
-						>
-							Learn How
-						</a>
+						<Link href="/marketing">
+							<a className="uppercase px-8 py-4 shadow-sm rounded inline-block mt-8 font-semibold hover:bg-blue-500 bg-blue-600 text-white">
+								Learn How
+							</a>
+						</Link>
 					</div>
 				</div>
 			</section>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ServicesSection() {
 	return (
 		<section className="relative bg-gray-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-16 md:pt-8 pb-40">
@@ -31,12 +33,11 @@ export default function ServicesSection() {
 						We don't just create websites (like everyone else does).
 						We create websites that work.
 					</p>
-					<a
-						href="/dentist_web_design.html"
-						className="block mt-4 text-blue-500 hover:underline"
-					>
-						Read More
-					</a>
+					<Link href="/web-design">
+						<a className="block mt-4 text-blue-500 hover:underline">
+							Read More
+						</a>
+					</Link>
 				</div>
 
 				<div className="w-72 flex flex-col items-center bg-white rounded-lg shadow-md p-8 md:mx-4">
@@ -58,12 +59,11 @@ export default function ServicesSection() {
 						We've managed over $1,300,000 in AdWords campaigns to
 						get results.
 					</p>
-					<a
-						href="/ppc_for_dentists.html"
-						className="block mt-4 text-blue-500 hover:underline"
-					>
-						Read More
-					</a>
+					<Link href="/adwords">
+						<a className="block mt-4 text-blue-500 hover:underline">
+							Read More
+						</a>
+					</Link>
 				</div>
 
 				<div className="w-72 flex flex-col items-center rounded-lg shadow-md p-8 md:mx-4 bg-white">
@@ -85,12 +85,11 @@ export default function ServicesSection() {
 						Effective on-page and off-page SEO to get you ranking in
 						top positions on Google.
 					</p>
-					<a
-						href="#"
-						className="block mt-4 text-blue-500 hover:underline"
-					>
-						Read More
-					</a>
+					<Link href="/posts/first-post">
+						<a className="block mt-4 text-blue-500 hover:underline">
+							Read More
+						</a>
+					</Link>
 				</div>
 
 				<div className="w-72 flex flex-col items-center bg-white rounded-lg shadow-md p-8 md:mx-4">
@@ -112,12 +111,11 @@ export default function ServicesSection() {
 						Target the right person with the right message at the
 						right time. This brings leads.
 					</p>
-					<a
-						href="/online_advertising.html"
-						className="block mt-4 text-blue-500 hover:underline"
-					>
-						Read More
-					</a>
+					<Link href="/online-advertising">
+						<a className="block mt-4 text-blue-500 hover:underline">
+							Read More
+						</a>
+					</Link>
 				</div>
 
 				<div className="w-72 flex flex-col items-center bg-white rounded-lg shadow-md p-8 md:mx-4">
@@ -139,12 +137,11 @@ export default function ServicesSection() {
 						Our writers are highly-skilled communicators and
 						persuaders.
 					</p>
-					<a
-						href="/marketing.html"
-						className="block mt-4 text-blue-500 hover:underline"
-					>
-						Read More
-					</a>
+					<Link href="/marketing">
+						<a className="block mt-4 text-blue-500 hover:underline">
+							Read More
+						</a>
+					</Link>
 				</div>
 
 				<div className="w-72 flex flex-col items-center bg-white rounded-lg shadow-md p-8 md:mx-4">
@@ -166,12 +163,11 @@ export default function ServicesSection() {
 						Social media growth to improve credibility and gain new
 						patients.
 					</p>
-					<a
-						href="/social_media.html"
-						className="block mt-4 text-blue-500 hover:underline"
-					>
-						Read More
-					</a>
+					<Link href="/social-media">
+						<a className="block mt-4 text-blue-500 hover:underline">
+							Read More
+						</a>
+					</Link>
 				</div>
 			</div>
 		</section>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Layout from "../components/layout";
 
 export default function OurWork() {
@@ -73,7 +74,7 @@ export default function OurWork() {
 							</p>
 							<a
 								className="inline-block uppercase text-center text-sm font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-md bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300"
-								href="/project-url.html"
+								href="/"
 							>
 								View Project
 							</a>
@@ -105,7 +106,7 @@ export default function OurWork() {
 							</p>
 							<a
 								className="inline-block uppercase text-center text-sm font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-md bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300"
-								href="/project-url.html"
+								href="/"
 							>
 								View Project
 							</a>
@@ -127,12 +128,11 @@ export default function OurWork() {
 					<h2 className="text-xl font-bold text-white">
 						Get in touch at (+27) 81 343 4552
 					</h2>
-					<a
-						href="/contact.html"
-						className="px-8 py-4 mt-8 lg:mt-0 uppercase rounded inline-block font-bold lg:ml-8 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-blue-50"
-					>
-						Contact Us
-					</a>
+					<Link href="/contact">
+						<a className="px-8 py-4 mt-8 lg:mt-0 uppercase rounded inline-block font-bold lg:ml-8 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-blue-50">
+							Contact Us
+						</a>
+					</Link>
 				</div>
 			</section>
 		</Layout>

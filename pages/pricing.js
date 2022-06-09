@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Layout from "../components/layout";
 
 export default function Pricing() {
@@ -100,13 +101,15 @@ export default function Pricing() {
 									</span>
 								</p>
 
-								<a href="/contact.html" className="">
-									<p className="w-full py-4 border-2 text-green-500 border-green-500 mt-8 rounded-xl hover:text-white hover:bg-green-400 hover:border-green-400">
-										<span className="font-medium uppercase">
-											Contact Us
-										</span>
-									</p>
-								</a>
+								<Link href="/contact">
+									<a className="">
+										<p className="w-full py-4 border-2 text-green-500 border-green-500 mt-8 rounded-xl hover:text-white hover:bg-green-400 hover:border-green-400">
+											<span className="font-medium uppercase">
+												Contact Us
+											</span>
+										</p>
+									</a>
+								</Link>
 							</div>
 						</div>
 
@@ -197,13 +200,15 @@ export default function Pricing() {
 									</span>
 								</p>
 
-								<a href="/contact.html" className="">
-									<p className="w-full py-4 bg-green-500 mt-8 rounded-xl text-white hover:bg-green-400">
-										<span className="font-medium uppercase">
-											Contact Us
-										</span>
-									</p>
-								</a>
+								<Link href="/contact">
+									<a className="">
+										<p className="w-full py-4 bg-green-500 mt-8 rounded-xl text-white hover:bg-green-400">
+											<span className="font-medium uppercase">
+												Contact Us
+											</span>
+										</p>
+									</a>
+								</Link>
 							</div>
 							<div className="absolute top-4 right-4">
 								<p className="bg-gradient-to-br from-blue-800 to-green-400 font-semibold px-4 py-1 rounded-full uppercase text-xs">
@@ -299,13 +304,15 @@ export default function Pricing() {
 									</span>
 								</p>
 
-								<a href="/contact.html" className="">
-									<p className="w-full py-4 border-2 text-green-500 border-green-500 mt-8 rounded-xl hover:text-white hover:bg-green-400 hover:border-green-400">
-										<span className="font-medium uppercase">
-											Contact Us
-										</span>
-									</p>
-								</a>
+								<Link href="/contact">
+									<a className="">
+										<p className="w-full py-4 border-2 text-green-500 border-green-500 mt-8 rounded-xl hover:text-white hover:bg-green-400 hover:border-green-400">
+											<span className="font-medium uppercase">
+												Contact Us
+											</span>
+										</p>
+									</a>
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -500,12 +507,11 @@ export default function Pricing() {
 					<h2 className="text-xl font-bold text-white">
 						Get in touch at (+27) 81 343 4552
 					</h2>
-					<a
-						href="/contact.html"
-						className="px-8 py-4 mt-8 lg:mt-0 uppercase rounded inline-block font-bold lg:ml-8 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-blue-50"
-					>
-						Contact Us
-					</a>
+					<Link href="/contact">
+						<a className="px-8 py-4 mt-8 lg:mt-0 uppercase rounded inline-block font-bold lg:ml-8 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-blue-50">
+							Contact Us
+						</a>
+					</Link>
 				</div>
 			</section>
 		</Layout>

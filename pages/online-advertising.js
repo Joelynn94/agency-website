@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Layout from "../components/layout";
 
 export default function OnlineAdvertising() {
@@ -6,7 +7,7 @@ export default function OnlineAdvertising() {
 			<section className="relative py-32 px-12 pl-6 lg:py-44 lg:pl-32 bg-gradient-to-br from-blue-500 to-green-400">
 				<div className="h-full absolute top-0 left-0">
 					<img
-						src="images/advertising.jpg"
+						src="images/social.jpg"
 						alt="People socializing."
 						className="w-full h-full object-cover opacity-10"
 					/>
@@ -102,12 +103,11 @@ export default function OnlineAdvertising() {
 						We focus on more patients so you can focus on your
 						practice.
 					</h2>
-					<a
-						href="/contact.html"
-						className="px-8 py-4 mt-8 lg:mt-0 uppercase rounded inline-block font-bold lg:ml-8 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-blue-50"
-					>
-						Contact Us
-					</a>
+					<Link href="/contact">
+						<a className="px-8 py-4 mt-8 lg:mt-0 uppercase rounded inline-block font-bold lg:ml-8 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-blue-50">
+							Contact Us
+						</a>
+					</Link>
 				</div>
 			</section>
 		</Layout>

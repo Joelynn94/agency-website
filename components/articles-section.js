@@ -20,7 +20,7 @@ export default function ArticlesSection() {
 						tempus, mollis sem a, faucibus mi.
 					</p>
 					<a
-						href="/lead_generation"
+						href="/posts/first-post"
 						className="inline-block mt-4 font-medium hover:underline text-gray-500"
 					>
 						Read article &#8594;
