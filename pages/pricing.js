@@ -3,12 +3,15 @@ import Layout from "../components/layout";
 export default function Pricing() {
 	return (
 		<Layout>
-			<section className="min-h-screen pt-40 pb-24 lg:py-48 flex justify-center items-center py-32 px-12 bg-gradient-to-br from-blue-500 to-green-400">
+			<section className="min-h-screen pt-40 pb-24 lg:py-48 flex justify-center items-center py-32 px-12 bg-gray-100">
 				<div className="text-center font-semibold">
 					<h1 className="text-5xl">
-						<span className="text-gray-800">Flexible Plans</span>
+						<span class="text-green-500 tracking-wide">
+							Flexible{" "}
+						</span>
+						<span class="text-gray-800">Plans</span>
 					</h1>
-					<p className="pt-6 text-xl text-white font-normal w-full px-4 md:px-8 md:w-full">
+					<p className="pt-6 text-xl text-gray-500 font-normal w-full px-4 md:px-8 md:w-full">
 						Choose a plan that works best for you and your business.
 					</p>
 					<div className="pt-16 lg:pt-24 flex flex-col lg:flex-row">
@@ -320,7 +323,7 @@ export default function Pricing() {
 						</h3>
 
 						<li className="inline-block w-full my-8">
-							<details className=" shadow-md bg-gray-200">
+							<details className=" shadow-md bg-gray-100">
 								<summary className="cursor-pointer flex px-6 py-4 lg:px-12 lg:py-8 font-medium text-base lg:text-lg text-gray-700">
 									<div className="flex items-center">
 										<span className="pr-4 lg:pr-8">
@@ -353,7 +356,7 @@ export default function Pricing() {
 						</li>
 
 						<li className="inline-block w-full my-8">
-							<details className=" shadow-md bg-gray-200">
+							<details className=" shadow-md bg-gray-100">
 								<summary className="cursor-pointer flex px-6 py-4 lg:px-12 lg:py-8 font-medium text-base lg:text-lg text-gray-700">
 									<div className="flex items-center">
 										<span className="pr-4 lg:pr-8">
@@ -386,7 +389,7 @@ export default function Pricing() {
 						</li>
 
 						<li className="inline-block w-full my-8">
-							<details className=" shadow-md bg-gray-200">
+							<details className=" shadow-md bg-gray-100">
 								<summary className="cursor-pointer flex px-6 py-4 lg:px-12 lg:py-8 font-medium text-base lg:text-lg text-gray-700">
 									<div className="flex items-center">
 										<span className="pr-4 lg:pr-8">
@@ -424,7 +427,7 @@ export default function Pricing() {
 							Pricing
 						</h3>
 						<li className="inline-block w-full my-8">
-							<details className=" shadow-md bg-gray-200">
+							<details className=" shadow-md bg-gray-100">
 								<summary className="cursor-pointer flex px-6 py-4 lg:px-12 lg:py-8 font-medium text-base lg:text-lg text-gray-700">
 									<div className="flex items-center">
 										<span className="pr-4 lg:pr-8">
@@ -457,7 +460,7 @@ export default function Pricing() {
 						</li>
 
 						<li className="inline-block w-full my-8">
-							<details className=" shadow-md bg-gray-200">
+							<details className=" shadow-md bg-gray-100">
 								<summary className="cursor-pointer flex px-6 py-4 lg:px-12 lg:py-8 font-medium text-base lg:text-lg text-gray-700">
 									<div className="flex items-center">
 										<span className="pr-4 lg:pr-8">

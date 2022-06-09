@@ -3,11 +3,11 @@ import Layout from "../components/layout";
 export default function About() {
 	return (
 		<Layout>
-			<section className="py-32 px-12 pl-6 lg:py-44 lg:pl-32 bg-gradient-to-br from-blue-500 to-green-400">
-				<h1 className="text-xs lg:text-base uppercase font-bold mb-3 lg:mb-6 text-gray-200">
+			<section className="py-32 px-12 pl-6 lg:py-44 lg:pl-32 bg-gray-100">
+				<h1 className="text-xs lg:text-base uppercase font-bold mb-3 lg:mb-6 text-green-400">
 					About Us
 				</h1>
-				<p className="font-semibold lg:w-1/2 text-3xl lg:text-5xl max-w-prose text-white md:text-gray-200">
+				<p className="font-semibold lg:w-3/5 text-3xl lg:text-5xl max-w-prose text-gray-800">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					Amet nisi risus ac, elit malesuada massa. Tristique
 					porttitor sed odio enim sit molestie.

@@ -5,7 +5,7 @@ export default function Navbar() {
 		<div className="flex flex-wrap items-center justify-between py-6">
 			<div className="md:w-auto">
 				<Link href="/">
-					<a className="text-white font-bold text-2xl">
+					<a className="text-gray-800 font-bold text-2xl">
 						Dentist Marketing
 					</a>
 				</Link>
@@ -63,35 +63,35 @@ export default function Navbar() {
 						<ul className="md:flex items-center">
 							<li className="md:ml-4">
 								<Link href="/about">
-									<a className="py-2 inline-block md:text-white md:hidden lg:block font-semibold hover:underline visited:text-white">
+									<a className="py-2 inline-block md:text-gray-800 md:hidden lg:block font-semibold hover:underline visited:text-gray-800">
 										About Us
 									</a>
 								</Link>
 							</li>
 							<li className="md:ml-4">
 								<Link href="/pricing">
-									<a className="py-2 inline-block md:text-white md:px-2 font-semibold hover:underline">
+									<a className="py-2 inline-block md:text-gray-800 md:px-2 font-semibold hover:underline">
 										Pricing
 									</a>
 								</Link>
 							</li>
 							<li className="md:ml-4">
 								<Link href="/marketing">
-									<a className="py-2 inline-block md:text-white md:px-2 font-semibold hover:underline">
+									<a className="py-2 inline-block md:text-gray-800 md:px-2 font-semibold hover:underline">
 										Marketing
 									</a>
 								</Link>
 							</li>
 							<li className="md:ml-4 md:hidden lg:block">
 								<Link href="/blog">
-									<a className="py-2 inline-block md:text-white md:px-2 font-semibold hover:underline">
+									<a className="py-2 inline-block md:text-gray-800 md:px-2 font-semibold hover:underline">
 										Blog
 									</a>
 								</Link>
 							</li>
 							<li className="md:ml-6 mt-3 md:mt-0">
 								<Link href="/contact_us.html">
-									<a className="inline-block font-semibold px-4 py-2 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded hover:bg-white hover:text-green-400">
+									<a className="inline-block font-semibold px-4 py-2 text-gray-800 bg-blue-600 md:bg-transparent md:text-gray-800 border border-gray-800 rounded hover:bg-gray-800 hover:text-green-400">
 										Contact Us
 									</a>
 								</Link>
