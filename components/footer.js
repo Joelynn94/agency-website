@@ -117,13 +117,14 @@ export default function Footer() {
 							</Link>
 						</li>
 						<li className="mt-2">
-							<a
-								href="/dentist_web_design.html"
-								title=""
-								className="opacity-75 hover:opacity-100"
-							>
-								Web Design
-							</a>
+							<Link href="/web-design">
+								<a
+									title=""
+									className="opacity-75 hover:opacity-100"
+								>
+									Web Design
+								</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
