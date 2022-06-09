@@ -303,13 +303,14 @@ export default function Footer() {
 						Privacy Policy
 					</a>
 				</Link>
-				<a
-					className="text-gray-400 hover:text-gray-300"
-					href="/terms_and_conditions.html"
-					rel="nofollow"
-				>
-					Terms &amp; Conditions
-				</a>
+				<Link href="/terms-and-conditions">
+					<a
+						className="text-gray-400 hover:text-gray-300"
+						rel="nofollow"
+					>
+						Terms &amp; Conditions
+					</a>
+				</Link>
 			</div>
 		</footer>
 	);

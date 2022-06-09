@@ -3,12 +3,12 @@ import Layout from "../components/layout";
 export default function PrivacyPolicy() {
 	return (
 		<Layout>
-			<section class="pt-24 pb-40 lg:pt-40 lg:pb-32 flex justify-center">
-				<article class="max-w-screen-xl lg:mx-8">
-					<div class="flex flex-col items-center justify-center">
-						<div class="inline-block p-3 lg:p-4 rounded-full mb-1 bg-gradient-to-r from-blue-500 to-green-400">
+			<section className="pt-24 pb-40 lg:pt-40 lg:pb-32 flex justify-center">
+				<article className="max-w-screen-xl lg:mx-8">
+					<div className="flex flex-col items-center justify-center">
+						<div className="inline-block p-3 lg:p-4 rounded-full mb-1 bg-gradient-to-r from-blue-500 to-green-400">
 							<svg
-								class="h-8 w-8"
+								className="h-8 w-8"
 								width="24"
 								height="30"
 								viewBox="0 0 24 30"
@@ -21,12 +21,12 @@ export default function PrivacyPolicy() {
 								/>
 							</svg>
 						</div>
-						<h1 class="text-3xl lg:text-4xl text-center mx-4 lg:mx-0 font-semibold text-gray-700">
+						<h1 className="text-3xl lg:text-4xl text-center mx-4 lg:mx-0 font-semibold text-gray-700">
 							Privacy Policy
 						</h1>
 					</div>
-					<div class="max-w-prose mx-6 lg:mx-auto text-gray-600 mt-12">
-						<p class="mb-4">
+					<div className="max-w-prose mx-6 lg:mx-auto text-gray-600 mt-12">
+						<p className="mb-4">
 							The following Privacy Policy governs the online
 							information collection practices of
 							www.yourwebsitename.com (“we” or “us” or “Site”). By
@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
 							email address to any unauthorized third party.
 						</p>
 
-						<p class="mb-4">
+						<p className="mb-4">
 							We may collect and store personal or other
 							information that you voluntarily supply to us online
 							while using the Site (e.g., while on the Site or in
@@ -57,7 +57,7 @@ export default function PrivacyPolicy() {
 							information is provided to us by you.
 						</p>
 
-						<p class="mb-4">
+						<p className="mb-4">
 							We also collect and store information that is
 							generated automatically as you navigate online
 							through the Site. For example, we may collect
@@ -75,7 +75,7 @@ export default function PrivacyPolicy() {
 							patterns.
 						</p>
 
-						<p class="mb-4">
+						<p className="mb-4">
 							The Site also includes links to websites we endorse
 							or sponsor and provides access to products and
 							services offered by third parties, whose privacy
@@ -91,7 +91,7 @@ export default function PrivacyPolicy() {
 							services.
 						</p>
 
-						<p class="mb-4">
+						<p className="mb-4">
 							We may also make some content, products and services
 							available through our Site through cooperative
 							relationships with third-party providers, where the
@@ -112,7 +112,7 @@ export default function PrivacyPolicy() {
 							more information.
 						</p>
 
-						<p class="mb-4">
+						<p className="mb-4">
 							Your information is stored at the list server that
 							delivers this Site’s newsletters. Your information
 							can only be accessed by those who help manage those
