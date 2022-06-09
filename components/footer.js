@@ -295,13 +295,14 @@ export default function Footer() {
 				</div>
 			</div>
 			<div className="flex w-full flex-col items-center text-xs mt-12">
-				<a
-					className="text-gray-400 hover:text-gray-300"
-					href="/privacy_policy.html"
-					rel="nofollow"
-				>
-					Privacy Policy
-				</a>
+				<Link href="/privacy-policy">
+					<a
+						className="text-gray-400 hover:text-gray-300"
+						rel="nofollow"
+					>
+						Privacy Policy
+					</a>
+				</Link>
 				<a
 					className="text-gray-400 hover:text-gray-300"
 					href="/terms_and_conditions.html"
