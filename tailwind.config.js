@@ -5,8 +5,17 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			width: {
+				mc: "max-content",
+			},
+			spacing: {
+				88: "21rem",
+			},
 			borderRadius: {
 				"40xl": "20rem",
+			},
+			scale: {
+				200: "2",
 			},
 		},
 	},

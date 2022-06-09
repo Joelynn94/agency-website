@@ -1,8 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import AboutSection from "../components/about-section";
+import ArticlesSection from "../components/articles-section";
+import CtaSection from "../components/cta-section";
 import Hero from "../components/hero";
 import Layout from "../components/layout";
+import ServicesSection from "../components/services-section";
 
 export default function Home() {
 	return (
@@ -15,7 +19,12 @@ export default function Home() {
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
+
 			<Hero />
+			<AboutSection />
+			<ServicesSection />
+			<ArticlesSection />
+			<CtaSection />
 		</Layout>
 	);
 }
