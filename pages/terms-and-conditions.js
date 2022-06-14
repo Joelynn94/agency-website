@@ -33,9 +33,9 @@ export default function TermsAndConditions() {
             </h2>
             <p className="mb-4">
               This website www.yourwebsitename.com (the “SITE”) is owned and
-              operated by YOUR CLIENT'S NAME (“COMPANY” “we” or “us”). By using
-              the Site, you agree to be bound by these Terms of Service and to
-              use the Site in accordance with these Terms of Service, our
+              operated by YOUR CLIENT&apos;S NAME (“COMPANY” “we” or “us”). By
+              using the Site, you agree to be bound by these Terms of Service
+              and to use the Site in accordance with these Terms of Service, our
               Privacy Policy and any additional terms and conditions that may
               apply to specific sections of the Site or to products and services
               available through the Site or from COMPANY. Accessing the Site, in

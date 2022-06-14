@@ -54,7 +54,7 @@ export default function PrivacyPolicy() {
             <p className="mb-4">
               We also collect and store information that is generated
               automatically as you navigate online through the Site. For
-              example, we may collect information about your computer's
+              example, we may collect information about your computer&apos;s
               connection to the Internet, which allows us, among other things,
               to improve the delivery of our web pages to you and to measure
               traffic on the Site. We also may use a standard feature found in
@@ -89,22 +89,23 @@ export default function PrivacyPolicy() {
               visiting any pages that are made available in cooperation with our
               provider partner. In some cases, the provider partner may collect
               information from you directly, in which cases the privacy policy
-              of our provider partner may apply to the provider partner's use of
-              your information. The privacy policy of our provider partners may
-              differ from ours. If you have any questions regarding the privacy
-              policy of one of our provider partners, you should contact the
-              provider partner directly for more information.
+              of our provider partner may apply to the provider partner&apos;s
+              use of your information. The privacy policy of our provider
+              partners may differ from ours. If you have any questions regarding
+              the privacy policy of one of our provider partners, you should
+              contact the provider partner directly for more information.
             </p>
 
             <p className="mb-4">
               Your information is stored at the list server that delivers this
-              Site's newsletters. Your information can only be accessed by those
-              who help manage those lists in order to deliver e-mail to those
-              who would like to receive this Site's newsletters. All of the
-              newsletters or emails that are sent to you by this Site include an
-              unsubscribe link in them. You can remove yourself at any time from
-              our newsletters or mailing list by clicking on the unsubscribe
-              link that can be found in every communication that we send you.
+              Site&apos;s newsletters. Your information can only be accessed by
+              those who help manage those lists in order to deliver e-mail to
+              those who would like to receive this Site&apos;s newsletters. All
+              of the newsletters or emails that are sent to you by this Site
+              include an unsubscribe link in them. You can remove yourself at
+              any time from our newsletters or mailing list by clicking on the
+              unsubscribe link that can be found in every communication that we
+              send you.
             </p>
           </div>
         </article>

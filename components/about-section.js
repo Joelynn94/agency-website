@@ -68,8 +68,8 @@ export default function AboutSection() {
               <p className="mt-2 leading-relaxed">
                 Not only will you pull in more wonderful clients, you will also
                 be reading this and thinking to yourself if you could rewrite
-                this slightly better only to now realize that you're reading
-                what is considered a textual easter egg. Congrats!
+                this slightly better only to now realize that you&apos;re
+                reading what is considered a textual easter egg. Congrats!
               </p>
             </div>
           </div>

@@ -13,9 +13,9 @@ export default function WebDesign() {
               The technical details really matter
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Mananging and growing a business in today's ultra-competitive
-              internet econonmy ain't easy. We handle the tough stuff so you can
-              focus on your patients.
+              Mananging and growing a business in today&apos;s ultra-competitive
+              internet econonmy ain&apos;t easy. We handle the tough stuff so
+              you can focus on your patients.
             </p>
           </div>
 
@@ -245,7 +245,7 @@ export default function WebDesign() {
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div>
             <h2 className="text-2xl font-bold text-white mb-4">
-              Let's talk web design that works!
+              Let&apos;s talk web design that works!
             </h2>
             <span className="inline-block w-full mt-4 text-center lg:mt-0 lg:text-left font-medium text-gray-200">
               If you have a website,{" "}
@@ -268,7 +268,8 @@ export default function WebDesign() {
           >
             <p className="hidden">
               <label>
-                Don't fill this out if you're human: <input name="bot-field" />
+                Don&apos;t fill this out if you&apos;re human:{" "}
+                <input name="bot-field" />
               </label>
             </p>
             <div className="w-full md:w-80">
@@ -290,7 +291,7 @@ export default function WebDesign() {
                   id="success"
                   className="hidden mt-2 px-4 py-2 font-medium border rounded-sm border-green-500 bg-green-100 text-green-600"
                 >
-                  Thanks! We'll be in touch soon.
+                  Thanks! We&apos;ll be in touch soon.
                 </span>
                 <span
                   id="error"

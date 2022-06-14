@@ -69,12 +69,11 @@ export default function OurWork() {
                 consequat pharetra sit volutpat consectetur mauris. Scelerisque
                 ac lectus vitae, amet sed vel molestie dui. Ullamcorper.
               </p>
-              <a
-                className="inline-block uppercase text-center text-sm font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-md bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300"
-                href="/"
-              >
-                View Project
-              </a>
+              <Link href="/">
+                <a className="inline-block uppercase text-center text-sm font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-md bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300">
+                  View Project
+                </a>
+              </Link>
             </div>
             <div className="relative lg:rounded-xl h-80 lg:w-80 mt-8 lg:mt-0 -mx-4 lg:mx-0 lg:rounded-tr-10xl lg:rounded-bl-10xl overflow-hidden">
               <div className="absolute top-0 right-0 left-0 bottom-0 opacity-30 bg-blue-600"></div>
@@ -99,12 +98,11 @@ export default function OurWork() {
                 consequat pharetra sit volutpat consectetur mauris. Scelerisque
                 ac lectus vitae, amet sed vel molestie dui. Ullamcorper.
               </p>
-              <a
-                className="inline-block uppercase text-center text-sm font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-md bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300"
-                href="/"
-              >
-                View Project
-              </a>
+              <Link href="/">
+                <a className="inline-block uppercase text-center text-sm font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-md bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300">
+                  View Project
+                </a>
+              </Link>
             </div>
             <div className="relative lg:rounded-xl h-80 lg:w-80 mt-8 lg:mt-0 -mx-4 lg:mx-0 overflow-hidden">
               <div className="absolute top-0 right-0 left-0 bottom-0 opacity-30 bg-blue-600"></div>

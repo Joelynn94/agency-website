@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ArticlesSection() {
   return (
@@ -19,12 +20,11 @@ export default function ArticlesSection() {
             tincidunt ac, imperdiet in enim. Donec efficitur ullamcorper metus,
             eu venenatis nunc. Nam eget neque tempus, mollis sem a, faucibus mi.
           </p>
-          <a
-            href="/posts/first-post"
-            className="inline-block mt-4 font-medium hover:underline text-gray-500"
-          >
-            Read article &#8594;
-          </a>
+          <Link href="/posts/first-post">
+            <a className="inline-block mt-4 font-medium hover:underline text-gray-500">
+              Read article &#8594;
+            </a>
+          </Link>
         </div>
 
         <div className="w-full lg:w-1/2 lg:px-8 my-20 md:my-0">

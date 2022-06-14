@@ -17,7 +17,7 @@ export default function SocialMedia() {
           Social Media
         </h1>
         <p className="font-semibold lg:w-1/2 text-3xl lg:text-5xl max-w-prose text-blue-50">
-          No, it's not as simple as posting weekly on your social accounts.
+          No, it&apos;s not as simple as posting weekly on your social accounts.
         </p>
       </section>
 

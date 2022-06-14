@@ -179,7 +179,8 @@ export default function Marketing() {
           >
             <p className="hidden">
               <label>
-                Don't fill this out if you're human: <input name="bot-field" />
+                Don&apos;t fill this out if you&apos;re human:{" "}
+                <input name="bot-field" />
               </label>
             </p>
             <div className="w-full md:w-80">
@@ -201,7 +202,7 @@ export default function Marketing() {
                   id="success"
                   className="hidden mt-2 px-4 py-2 font-medium border rounded-sm border-green-500 bg-green-100 text-green-600"
                 >
-                  Thanks! We'll be in touch soon.
+                  Thanks! We&apos;ll be in touch soon.
                 </span>
                 <span
                   id="error"

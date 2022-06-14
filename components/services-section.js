@@ -30,8 +30,8 @@ export default function ServicesSection() {
 
           <h4 className="text-xl font-bold">Effective Websites</h4>
           <p className="mt-1">
-            We don't just create websites (like everyone else does). We create
-            websites that work.
+            We don&apos;t just create websites (like everyone else does). We
+            create websites that work.
           </p>
           <Link href="/web-design">
             <a className="block mt-4 text-blue-500 hover:underline">
@@ -56,7 +56,8 @@ export default function ServicesSection() {
 
           <h4 className="text-xl font-bold">AdWords (PPC)</h4>
           <p className="mt-1">
-            We've managed over $1,300,000 in AdWords campaigns to get results.
+            We&apos;ve managed over $1,300,000 in AdWords campaigns to get
+            results.
           </p>
           <Link href="/adwords">
             <a className="block mt-4 text-blue-500 hover:underline">
